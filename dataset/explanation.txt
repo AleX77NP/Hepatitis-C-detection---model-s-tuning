@@ -1,0 +1,43 @@
+X (Patient ID/No.): This is a unique identifier for each patient. It ensures anonymity and helps differentiate between patients in the dataset.
+
+Category (diagnosis): This column contains the diagnosis for each patient, which could indicate the presence or stage of Hepatitis C. The categories might include labels like '0' for no infection, '1' for chronic infection, or other specific diagnostic stages.
+
+Age (in years): The age of the patient in years at the time of data collection.
+
+Sex (f,m): The gender of the patient, with 'f' indicating female and 'm' indicating male.
+
+ALB (Albumin): A protein made by the liver, albumin levels can indicate liver function. Low levels can suggest liver disease or other conditions.
+
+ALP (Alkaline Phosphatase): An enzyme related to the bile ducts; often increased when they are blocked. It can also indicate liver damage or other liver diseases.
+
+ALT (Alanine Aminotransferase): An enzyme found in the liver that helps convert proteins into energy for the liver cells. High levels of ALT in the blood can indicate liver damage.
+
+AST (Aspartate Aminotransferase): An enzyme found in the liver and other tissues like the heart and muscles. Similar to ALT, high levels can indicate liver damage, though AST can also be elevated in conditions affecting other organs.
+
+BIL (Bilirubin): A substance produced during the normal breakdown of red blood cells. High levels of bilirubin can cause jaundice and indicate liver dysfunction or other conditions.
+
+CHE (Cholinesterase): An enzyme that breaks down acetylcholine and other choline esters. Low levels can indicate chronic liver disease, malnutrition, or inflammation.
+
+CHOL (Cholesterol): Total cholesterol level in the blood. Abnormal cholesterol levels can indicate various health issues, including liver function.
+
+CREA (Creatinine): A waste product from the normal breakdown of muscle tissue. High levels can indicate kidney dysfunction, which is sometimes associated with liver disease.
+
+GGT (Gamma-Glutamyl Transferase): An enzyme in the liver, bile ducts, and pancreas. High levels can indicate liver disease or bile duct problems.
+
+PROT (Total Protein): The total amount of two classes of proteins in the blood: albumin and globulin. Abnormal levels can indicate liver or kidney disease, or other conditions.
+
+
+
+# CORRELATION in Dataset
+
+
+A Correlation coefficient is a number that denotes the strength of the relationship between two variables.
+There are several correlation coefficients,
+
+Pearson’s coefficient(denotted by ρ (rho)) - most common used It is defined as the covariance between two variables divided by the product of the standard deviations of the two variables.
+Formula for correlation coefficient between two variables
+Where the covariance between X and Y COV(X, Y) is further defined as the ‘expected value of the product of the deviations of X and Y from their respective means’.
+
+The value of ρ lies between -1 and +1.
+Values nearing +1 indicate the presence of a strong positive relation between X and Y, whereas those nearing -1 indicate a strong negative relation between X and Y.
+Values near to zero mean there is an absence of any relationship between X and Y.
