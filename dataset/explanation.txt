@@ -1,30 +1,30 @@
-X (Patient ID/No.): This is a unique identifier for each patient. It ensures anonymity and helps differentiate between patients in the dataset.
+These details (features we will use to predict) are as follows:
 
-Category (diagnosis): This column contains the diagnosis for each patient, which could indicate the presence or stage of Hepatitis C. The categories might include labels like '0' for no infection, '1' for chronic infection, or other specific diagnostic stages.
+X (Patient ID/No): A unique identifier for each patient. This is typically used to track and manage patient data but is not used in the predictive model.
 
-Age (in years): The age of the patient in years at the time of data collection.
+Age (in years): The patient's age, which can be a significant factor in disease prevalence and progression.
 
-Sex (f,m): The gender of the patient, with 'f' indicating female and 'm' indicating male.
+Sex (f,m): The patient's gender (female or male), as some diseases may have different prevalence or symptoms in different genders.
 
-ALB (Albumin): A protein made by the liver, albumin levels can indicate liver function. Low levels can suggest liver disease or other conditions.
+ALB (Albumin): A protein made by the liver. Low levels can suggest liver disease or other conditions.
 
-ALP (Alkaline Phosphatase): An enzyme related to the bile ducts; often increased when they are blocked. It can also indicate liver damage or other liver diseases.
+ALP (Alkaline Phosphatase): An enzyme found in the liver, bones, and other tissues. High levels can indicate liver damage or disease.
 
-ALT (Alanine Aminotransferase): An enzyme found in the liver that helps convert proteins into energy for the liver cells. High levels of ALT in the blood can indicate liver damage.
+ALT (Alanine Transaminase): An enzyme mostly found in the liver. High levels can suggest liver damage.
 
-AST (Aspartate Aminotransferase): An enzyme found in the liver and other tissues like the heart and muscles. Similar to ALT, high levels can indicate liver damage, though AST can also be elevated in conditions affecting other organs.
+AST (Aspartate Transaminase): An enzyme found in various parts of the body, including the liver. Elevated levels can indicate liver damage.
 
-BIL (Bilirubin): A substance produced during the normal breakdown of red blood cells. High levels of bilirubin can cause jaundice and indicate liver dysfunction or other conditions.
+BIL (Bilirubin): A substance produced by the liver. High levels can indicate liver disease.
 
-CHE (Cholinesterase): An enzyme that breaks down acetylcholine and other choline esters. Low levels can indicate chronic liver disease, malnutrition, or inflammation.
+CHE (Cholinesterase): An enzyme that can be indicative of liver function. Changes in levels can suggest liver damage or disease.
 
-CHOL (Cholesterol): Total cholesterol level in the blood. Abnormal cholesterol levels can indicate various health issues, including liver function.
+CHOL (Cholesterol): While typically associated with heart disease, abnormal levels can also be related to liver function.
 
-CREA (Creatinine): A waste product from the normal breakdown of muscle tissue. High levels can indicate kidney dysfunction, which is sometimes associated with liver disease.
+CREA (Creatinine): Indicates kidney function but can be affected by liver disease.
 
-GGT (Gamma-Glutamyl Transferase): An enzyme in the liver, bile ducts, and pancreas. High levels can indicate liver disease or bile duct problems.
+GGT (Gamma-Glutamyl Transferase): An enzyme in the liver, elevated levels can indicate liver damage or bile duct problems.
 
-PROT (Total Protein): The total amount of two classes of proteins in the blood: albumin and globulin. Abnormal levels can indicate liver or kidney disease, or other conditions.
+PROT (Total Protein): The total amount of protein in the blood. Abnormal levels can suggest a variety of conditions, including liver and kidney issues.
 
 
 
