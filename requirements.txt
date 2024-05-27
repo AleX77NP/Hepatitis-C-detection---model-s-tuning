@@ -4,4 +4,3 @@ pandas-dq==1.29
 scikit-learn==1.4.2
 seaborn==0.13.2
 autogluon==1.1.0
-
