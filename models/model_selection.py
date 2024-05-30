@@ -17,7 +17,7 @@ class ModelSelector:
     
     def __get_logistic_model(self, hyperparams: dict):
         return LogisticRegression(multi_class='multinomial', solver=hyperparams['solver'], 
-                max_iter=hyperparams['max_iter'], penalty=hyperparams['penalty'], C=hyperparams['C'])
+                max_iter=hyperparams['max_iter'], C=hyperparams['C'])
     
     def __get_naive_bayes(self, hyperparams: dict):
         return MultinomialNB(alpha=hyperparams['alpha'])
