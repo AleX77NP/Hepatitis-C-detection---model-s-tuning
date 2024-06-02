@@ -24,7 +24,7 @@ class ModelSelector:
     
     def __get_random_forest(self, hyperparams: dict):
         return RandomForestClassifier(n_estimators=hyperparams['n_estimators'], 
-            max_depth=hyperparams['max_depth'], criterion=hyperparams['criterion'])
+            max_depth=hyperparams['max_depth'], criterion='log_loss', random_state=42)
     
     
     
